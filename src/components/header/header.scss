@@ -1,0 +1,23 @@
+.header {
+  padding: 20px 0;
+  background: lightgray;
+  &__nav {
+      text-transform: uppercase;
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+  }
+  &__nav-item {
+      color: white;
+      font-family:sans-serif;
+      font-size: 16px;
+      padding: 0 30px;
+      vertical-align: middle;
+      display: inline-block;
+      &_logo {
+          padding: 0 90px;
+          font-size: 18px;
+      }
+  }
+}
